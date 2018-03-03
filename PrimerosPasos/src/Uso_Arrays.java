@@ -15,8 +15,8 @@ public class Uso_Arrays {
 		// TODO Auto-generated method stub
 		
 		int [] mi_matriz={5,38,-15,92,71};
-		for (int i=0;i<5;i++) {
-			System.out.println(mi_matriz[i]);
+		for (int i=0;i<mi_matriz.length;i++) {
+			System.out.println("Valor del indice " + i + " = " +  mi_matriz[i]);
 		}
 		
 		
